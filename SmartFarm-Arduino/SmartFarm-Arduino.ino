@@ -48,9 +48,9 @@ void loop() {
     Serial.print(",");
     
     //LDR
-    ldr_sensorValue1 = analogRead(ldr_sensorPin); 
+    luminosidade1 = analogRead(ldr_sensorPin); 
     // Serial.print("Luminosidade:") ;
-    Serial.println(ldr_sensorValue1);
+    Serial.println(luminosidade1);
 
     //AMBIENTE 2
     // Serial.print("Umidade2:");
