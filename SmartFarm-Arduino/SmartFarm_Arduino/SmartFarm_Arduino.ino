@@ -86,9 +86,7 @@ void loop() {
     Serial.print(temperatura5);
     Serial.print(","); 
     Serial.println(luminosidade5);
-    
-
-
+  
   }
-  delay(10000); // delay 👍
+  delay(60000); // delay 👍
 }
