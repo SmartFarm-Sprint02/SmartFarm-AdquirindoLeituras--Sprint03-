@@ -39,7 +39,7 @@ const serial = async (
         {
             // altere!
             // Credenciais do banco de dados
-            host: 'localhost',
+            host: '10.18.35.248',
             user: 'cliente',
             password: '#Cliente123',
             database: 'smartfarm',

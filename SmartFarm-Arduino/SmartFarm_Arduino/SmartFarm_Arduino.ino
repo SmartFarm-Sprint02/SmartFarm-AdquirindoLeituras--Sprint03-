@@ -30,22 +30,22 @@ void loop() {
   // AMBIENTE 2
   float umidade2 = dht_1.readHumidity() * 1.15;
   float temperatura2 = dht_1.readTemperature() * 1.15;
-  float luminosidade2 = (luminosidade1 * 17) * 1.15; 
+  float luminosidade2 = (luminosidade1) * 1.15; 
   
   // AMBIENTE 3
   float umidade3 = dht_1.readHumidity() * 1.17;
   float temperatura3 = dht_1.readTemperature() * 1.17;
-  float luminosidade3 = (luminosidade1 * 17) * 1.17; 
+  float luminosidade3 = (luminosidade1) * 1.17; 
 
   // AMBIENTE 4
   float umidade4 = dht_1.readHumidity() * 1.12;
   float temperatura4 = dht_1.readTemperature() * 1.12;
-  float luminosidade4 = (luminosidade1 * 17) * 1.12; 
+  float luminosidade4 = (luminosidade1) * 1.12; 
 
   //AMBIENTE 5
   float umidade5 = dht_1.readHumidity() * 1.10;
   float temperatura5 = dht_1.readTemperature() * 1.10;
-  float luminosidade5 = (luminosidade1 * 17) * 1.10; 
+  float luminosidade5 = (luminosidade1) * 1.10; 
 
   if (isnan(temperatura1) or isnan(umidade1)) { // checando se o valor for inváliado 
 
@@ -57,7 +57,7 @@ void loop() {
     Serial.print(","); 
     Serial.print(temperatura1);
     Serial.print(",");
-    Serial.print(luminosidade1 * 17);
+    Serial.print(luminosidade1);
     Serial.print(",");
     // Ambiente 2
     Serial.print(umidade2);
