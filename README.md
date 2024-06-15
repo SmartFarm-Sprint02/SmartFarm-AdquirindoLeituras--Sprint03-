@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SmartFarm-WebDataViz/App/public/Img/Banner SmartFarm.png"/>
+  <img src="Banner SmartFarm2.png"/>
 </p>
 
 # SmartFarm-AdquirindoLeituras--Sprint03-
